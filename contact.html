@@ -2,27 +2,49 @@
 <html>
 <head>
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
     <header id="thehead">
         <div class="container">
             <a href="index.html" id="logo">Andrew Magee
-            </a>
-                <nav>
-                    <a href="index.html">About Me</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-             </div>
-        </header>
-        <h1>Contact</h1>
-        <p>Name</p>
-        <p>Email</p>
-        <p>Message</p>
+            </a>  
+                    <nav>
+                        <a href="index.html">About Me</a>
+
+                        <a href="portfolio.html">Portfolio</a>
+
+                        <a href="contact.html">Contact</a>
+                    </nav>
+            </div>
+    </header>
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>Contact</h1>
+            <p>
+                <label>Name
+                <br>
+                    <input type="text" name="contact_name"
+                    required>
+                </label>
+            </p>
+                <label>Email
+                <br>
+                    <input type="text" name="contact_email"
+                    required>
+                </label>
+            </p>
+            <p> 
+                <label>Message
+                <br>
+                    <input type="text" id="text" name="contact_message" class="mytext"/>
+                </label>
+            </p>
 <footer>
     <div class="container">
         &copy; Copyright 2019 Andrew Magee
     </div>
- </footer>  
+</footer>  
 </body>
 </html>
